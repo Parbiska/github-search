@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d1117;
+}
+.container  {
+    text-align: center;
+    color: #fff;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.form__input {
+    color: #fff;
+    font-size: 18px;
+    background-color: #484f58;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.form__button {
+    background-color: #484f58;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.form__button:hover {
+    cursor: pointer;
+}
+
+#search-state {
+    margin-top: 10px;
+    height: 20px;
+    font-size: 24px;
+}
+
+.list-title {
+    font-size: 30px;
+}
+
+.list {
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.list__item {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #484f58;
+    border-radius: 20px;
+    display: flex;
+    text-align: left;
+}
+
+.list__item__img {
+    background-color: #fff;
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.list__item__img img {
+    height: 100%;
+}
+
+.list__item__content {
+    line-height: 1.4;
+    font-size: 18px;
+    width: 900px;
+}
+
+.list__item__content b {
+    font-size: 15px;
+}
+
+.list__item__content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list__item__content a:hover {
+    text-decoration: underline;
+}
+
+.list__item__title {
+    font-size: 25px;
+    line-height: 1;
+    margin: 0 0 10px 0;
+}
+
+
+.list__item__title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.list__item__title a:hover {
+    text-decoration: underline;
+}
